@@ -83,8 +83,12 @@ export default function Hero() {
         {/* Avatar placeholder estilizado */}
         <div className="relative flex-shrink-0">
           <div className="w-56 h-56 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-[#00aaff]/20 to-[#7c3aed]/20 border border-white/10 flex items-center justify-center">
-            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-[#131a29] to-[#1e293b] flex items-center justify-center">
-              <img src="src/assets/main1.jpeg" alt="Gabriel Fernando" className="w-full h-full object-cover rounded-full" />
+            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden">
+              <img
+                src="/main1.jpeg"
+                alt="Gabriel Fernando"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           {/* Orbiting dot */}

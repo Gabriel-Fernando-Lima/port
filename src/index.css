@@ -23,6 +23,7 @@ body { background-color: #0a0f1b; color: #e2e8f0; }
   mask-composite: exclude;
   opacity: 0;
   transition: opacity 0.3s;
+  pointer-events: none;
 }
 .gradient-border:hover::before { opacity: 1; }
 
